@@ -4,7 +4,7 @@
 int main(void)
 {	int i,j,k,w,c,y,m,d;
     int s;
-    printf("请输入您所需要的日历的年份:"    );
+    printf("请输入您所需要的日历的年份:");
     scanf("%d",&s);
 	c=s/100;y=s%100-1;m=13;d=1;
 	w=(y+y/4+c/4-2*c+26*(m+1)/10+d-1)%7;
